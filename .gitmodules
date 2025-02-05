@@ -1,3 +1,9 @@
 [submodule "Day 3/Api-Integration"]
    path = Day 3/Api-Integration
    url = https://github.com/FareaaFaisal/Functional-web.git
+[submodule "Day 3/dynamic-products"]
+	path = Day 3/dynamic-products
+	url = https://github.com/FareaaFaisal/Day-4.git
+[submodule "Day 4/dynamic-products"]
+	path = Day 4/dynamic-products
+	url = https://github.com/FareaaFaisal/Day-4.git
