@@ -1,0 +1,3 @@
+[submodule "Day 3/old-repo"]
+	path = Day 3/old-repo
+	url = https://github.com/FareaaFaisal/Functional-web.git
