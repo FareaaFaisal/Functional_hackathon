@@ -1,0 +1,13 @@
+Test Case Report for FoodTuck,,,,,,,,
+,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate homepage responsiveness,Open website on desktop & mobile > Verify layout adjustments,Layout should adjust properly,Layout adjusts correctly,Passed,Low,-,Responsive design verified
+TC002,Test food item listing & search,Search for a dish > Check if results appear correctly,Correct dishes should be displayed,Correct dishes displayed,Passed,Medium,-,No issues found
+TC003,Verify 'Add to Cart' functionality,Add a food item to cart > Check cart updates,Cart should update with item,Cart updates correctly,Passed,High,-,Works as expected
+TC004,Test checkout process,Select items > Proceed to checkout > Enter details > Place order,Order should be placed successfully,"Payment failed initially, fixed later",Passed,High,-,Issue resolved
+TC005,Ensure payment gateway integration,Select payment method > Complete transaction,Payment should be processed,Payment processed successfully,Passed,High,-,No issues found
+TC006,Validate order tracking,Place an order > Check order status page,Order tracking should be visible,Feature not available,Skipped,Medium,-,Feature in future update
+TC007,Test API error handling,Disconnect API > Refresh order page,Show fallback message,Fallback message displayed,Passed,Medium,-,Handled gracefully
+TC008,Verify restaurant opening/closing status,Check restaurant status on homepage,Status should update correctly,Feature in future update,Skipped,Low,-,Feature in future update
+TC009,Validate promo codes & discounts,Apply discount code at checkout,Discount should be applied,Discount applied correctly,Passed,Medium,-,No issues found
+TC010,Test order cancellation & refund,Place an order > Cancel within allowed time > Check refund,Refund should be processed,Feature in future update,Skipped,High,-,Feature in future update
