@@ -1,0 +1,10 @@
+TEST CASE REPORT,,,,,,
+,,,,,,
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Validate homepage load time,Open homepage & check load time,Homepage loads within 3 sec,Loads in 1.6 sec,Passed,No issues
+TC002,Test food menu listing,Open Shop page & verify food items,All food items should be visible,All items displayed,Passed,Works fine
+TC003,Verify cart functionality,Add item to cart & check cart,Cart updates with added item,Cart updates correctly,Passed,No issues
+TC004,Test checkout process,Add item > Proceed to checkout > Make payment,Order should be placed successfully,Payment Successful,Passed,"Issue fixed, re-tested and verified"
+TC005,Order tracking,Place order & check tracking page,Order status updates in real-time,Feature Not Available,Failed,Order tracking not implemented yet
+TC006,API error handling,Disconnect internet > Reload menu,Show fallback message,"""No internet"" message shown",Passed,Handled properly
+TC007,Responsiveness testing,Resize window on desktop & mobile,Layout should adjust properly,Layout adjusts properly,Passed,Mobile-friendly
