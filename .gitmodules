@@ -4,3 +4,6 @@
 [submodule "Day 6"]
 	path = Day 6
 	url = https://github.com/FareaaFaisal/day06.git
+[submodule "Day 3/Api-Integration"]
+	path = Day 3/Api-Integration
+	url = https://github.com/FareaaFaisal/Functional-web.git
